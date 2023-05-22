@@ -4,8 +4,8 @@ import Imageslider from './Component2/images';
 function App() {
   return (
     <div className="App">
-      <Menu/>
-      {/* <Imageslider/> */}
+      {/* <Menu/> */}
+      <Imageslider/>
     </div>
   );
 }
