@@ -1,0 +1,164 @@
+.main-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    background-color: white;
+    text-align: left;
+    padding: 20px;
+    width: 50%;
+    background-image: url('./Ellipse\ 2.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    justify-content: left;
+    color: white;
+    padding: 20px 50px;
+}
+
+.menu-items {
+    margin: 50px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.menu-item {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    border-bottom: #FFEDED ridge 0.5px;
+    border-color: #FFEDED;
+}
+
+.menu-item span {
+    color: #FFCD29;
+    font-size: 2.5vw;
+}
+
+.search input {
+    border-radius: 10px;
+    padding: 5px;
+    align-items: center;
+}
+
+.search img {
+    width: 15px;
+    height: 15px;
+    margin-left: -20px;
+    margin-top: 1px;
+}
+
+.menu-2 {
+    padding: 20px;
+    align-items: center;
+    width: 50%;
+}
+
+.menu-21 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: end;
+    width: 50%;
+    margin-left: 38%;
+}
+
+.links {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-left: 40%;
+}
+
+.links h1 {
+    width: fit-content;
+    border-bottom: solid 3px #FFCD29;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    width: 70%;
+    height: 65%;
+    margin-left: 12%;
+
+}
+
+.image-grid h1 {
+    margin-top: 25%;
+}
+
+.image-grid h2 {
+    margin-top: 30%;
+}
+
+.image1 {
+    background-image: url('./image\ 12.png');
+    background-size: 100% 100%;
+    background-color: black;
+    border-radius: 50%;
+    align-items: center;
+    color: white;
+
+}
+
+.image2 {
+    background-image: url('./image\ 12\ \(1\).png');
+    background-color: black;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    background-size: 100% 100%;
+}
+
+.image3 {
+    background-image: url('./image\ 12\ \(2\).png');
+    background-color: black;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    background-size: 100% 100%;
+}
+
+.image4 {
+    background-image: url('./image\ 12\ \(3\).png');
+    background-size: 100% 100%;
+    align-items: center;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    column-gap: 40px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-media p {
+    margin-right: 30px;
+    color: maroon;
+    font-size: 20px;
+    border-radius: 50%;
+}
