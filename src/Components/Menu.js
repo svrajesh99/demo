@@ -3,11 +3,8 @@ import './Menu.css';
 import logo from './VNR.png';
 import searchIcon from './download.png';
 import closeIcon from './Menu.png';
-import image1 from './image 12.png';
-import image2 from './image 12 (1).png';
-import image3 from './image 12 (2).png';
-import image4 from './image 12 (3).png';
-import { BsFacebook, BsInstagram, BsTwitter, BsLinkedin } from 'react-icons/bs';
+import {RiInstagramFill} from 'react-icons/ri';
+import { BsSearch, BsFacebook, BsInstagram, BsTwitter, BsLinkedin } from 'react-icons/bs';
 const Menu = () => {
     return (
         <><div className="main-menu">
@@ -45,14 +42,13 @@ const Menu = () => {
                     </div>
                 </div>
             </div>
-            <div className="menu-2">
+            <div className="menu-1">
                 <div className="menu-21">
                     <div className="search">
-                        <input type="text" placeholder="Search" /><img src={searchIcon
-                        }></img>
+                        <input type="text" placeholder="Search" /><BsSearch id="icon"/>
                     </div>
                     <div>
-                        <img src={closeIcon}></img>
+                        <img src={closeIcon} alt="close"></img>
                     </div>
                 </div>
                 <div className="links">
@@ -65,8 +61,8 @@ const Menu = () => {
                     <div className="image4"><h2>Contact Us</h2></div>
                 </div>
                 <div className="contact">
-                    <div><h2>Contact With Us</h2></div>
-                    <div className="social-media"><p><BsFacebook /></p><p><BsInstagram /></p><p><BsLinkedin /></p><p><BsTwitter /></p></div>
+                    <div><h2>Contact&nbsp; &nbsp;With &nbsp;&nbsp;Us</h2></div>
+                    <div className="social-media"><p><BsFacebook  /></p><p><RiInstagramFill /></p><p><BsLinkedin /></p><p><BsTwitter /></p></div>
                 </div>
             </div>
         </div >
